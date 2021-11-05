@@ -16,7 +16,7 @@ RUN npm install express
 ## Vamos ignorar a node_modules por isso criaremos um .dockerignore
 COPY . .
 
-## Container ficará ouvindo os acessos na porta 3000 mizera
+## Container ficará ouvindo os acessos na porta 5000 
 EXPOSE 5000
 
 ## Não se repete no Dockerfile
